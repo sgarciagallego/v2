@@ -31,23 +31,6 @@ h6 {
   font-weight: 600;
 }
 
-#logo {
-  color: rgba(255, 255, 255, 1);
-  font-size: 2em;
-  font-weight: 600;
-}
-
-#btn {
-  padding: 14px 15px;
-  border: 1px solid rgba(75, 75, 75, 1);
-  border-radius: 10px;
-  transition: 0.2s ease;
-}
-
-#btn:hover {
-  border: 1px solid rgba(175, 175, 175, 1);
-}
-
 .social::after {
   content: "";
   width: 1px;

@@ -7,7 +7,6 @@ const Layout = ({children}) => {
     <>
       <Helmet>
         <meta charSet='utf-8' />
-        <link rel="icon" type="image/x-icon" href="./static/icon.svg" />
         <title>Sergio Garcia Gallego</title>
       </Helmet>
       {children}
