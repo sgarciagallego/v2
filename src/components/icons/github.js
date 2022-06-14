@@ -3,7 +3,7 @@ import { UilGithubAlt } from '@iconscout/react-unicons'
 
 const IconGithub = () => {
   return (
-    <UilGithubAlt size='30' color='#000' />
+    <UilGithubAlt size='22' color='rgba(175, 175, 175, 1)' />
   )
 }
 

@@ -36,3 +36,16 @@
     url('../fonts/inter/inter-v11-latin-600.ttf') format('truetype'),
     url('../fonts/inter/inter-v11-latin-600.svg#Inter') format('svg');
 }
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-mono/roboto-mono-v21-latin-regular.eot');
+  src: local(''),
+    url('../fonts/roboto-mono/roboto-mono-v21-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-mono/roboto-mono-v21-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-mono/roboto-mono-v21-latin-regular.woff') format('woff'),
+    url('../fonts/roboto-mono/roboto-mono-v21-latin-regular.ttf') format('truetype'),
+    url('../fonts/roboto-mono/roboto-mono-v21-latin-regular.svg#RobotoMono') format('svg');
+}
