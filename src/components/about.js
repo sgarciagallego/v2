@@ -15,12 +15,12 @@ const About = () => {
         <span className={monoStyles}>
           01.
         </span>
-        <span className={headingThreeStyles}>
+        <span>
           About Me
         </span>
       </h3>
       <div className={paragraphStyles}>
-        <p>Ever since I first placed my hands on my dad's beat-up 2000's Samsung laptop running Linux (Fedora 18), I have not been able to stop discovering the world of tech. The challenge of using terminal to install Minecraft at the age of 7 drove me to venture into this world. 😆</p>
+        <p>Ever since I first placed my hands on a battered Samsung computer running Fedora 18, I have not wanted to stop diving deeper into tech. The challenge and problems from having to using a terminal to install Minecraft at the age of 7 drove me to venture into this world. 😆</p>
         <p>Fast forward to mid 2022, and I have had the pleasure of working at a <a href='https://vasavebusiness.com' target='_blank' rel='noreferrer'>tech-software startup</a>, leading in the build and design of various client and company websites using HTML5, CSS3, JavaScript and jQuery. As well as this, I am currently working at a <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>digital skills bootcamp</a> as a student mentor for the Frontend Development Bootcamps and as a Junior Frontend Web Developer.</p>
         <p>Here are some of the technologies I use during my day-to-day activities.</p>
         <ul className={listStyles}>

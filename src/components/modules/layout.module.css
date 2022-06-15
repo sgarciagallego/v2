@@ -1,42 +1,40 @@
-.logo {
-  color: rgba(255, 255, 255, 1);
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.header--styles {
+.header--container {
   background-color: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgba(75, 75, 75, 1);
   top: 0;
   width: 100vw;
   height: 80px;
   position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 25px;
-  border-bottom: 1px solid rgba(75, 75, 75, 1);
 }
 
-.nav--styles {
+.nav--container {
   height: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
+  margin: 0 25px;
+  overflow-x: auto;
+}
+
+.nav--menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8rem;
 }
 
-.nav-list--styles {
-  margin-left: 15px;
+.nav--item {
+  margin-left: 20px;
 }
 
-.link--styles {
-  color: rgba(175, 175, 175, 1);
-}
-
-.link-no--styles {
+.item--no {
   color: rgba(75, 75, 75, 1);
+}
+
+.btn--container {
+  margin-top: 30px;
 }
 
 .btn {
@@ -51,6 +49,20 @@
 
 .btn:hover {
   border: 1px solid rgba(175, 175, 175, 1);
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(175, 175, 175, 1);
 }
 
 .social--container {
@@ -173,4 +185,66 @@
 
 .list--styles li::marker {
   content: "";
+}
+
+@media only screen and (min-width : 1824px) {  
+    
+}
+
+@media only screen and (min-width : 1224px) {
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1224px) {
+  
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media only screen   
+and (min-width : 320px) and (max-width : 480px) {
+  .social--container {
+    display: none;
+  }
+
+  .email--container {
+    display: none;
+  }
+
+  .support-text--styles {
+    font-size: 0.8rem;
+  }
+
+  .heading-one--styles {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+  }
+
+  .heading-two--styles {
+    font-size: 2rem;
+  }
+
+  .heading-three--styles {
+    font-size: 1.7rem;
+  }
+  
+  .paragraph--styles {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
+
+  .list--styles li {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {  
+    
 }
