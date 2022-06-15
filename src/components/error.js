@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import {
   sectionContainer,
   centerContainer,
-  headingOneStyles,
   btn
 } from './modules/layout.module.css'
 

@@ -130,6 +130,12 @@
   font-size: 4.2rem;
 }
 
+.mono--styles {
+  color: rgba(175, 175, 175, 1);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 80%;
+}
+
 .heading-three--styles {
   color: rgba(255, 255, 255, 1);
   display: flex;
@@ -161,6 +167,8 @@
 .list--styles li {
   display: flex;
   align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
 }
 
 .list--styles li::marker {
