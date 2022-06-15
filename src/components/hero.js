@@ -1,53 +1,42 @@
 import React from 'react'
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import { Link } from 'gatsby'
-
-const mainStyles = {
-  height: '100vh',
-  padding: '80px 10%',
-}
-
-const supportTextStyles = {
-  color: 'rgba(115, 115, 115, 1)',
-  marginTop: '12%',
-  fontFamily: '"Roboto Mono", monospace'
-}
-
-const headingStyles = {
-  color: 'rgba(255, 255, 255, 1)',
-  marginTop: '15px',
-  fontSize: '5rem'
-}
-
-const subheadingStyles = {
-  color: 'rgba(175, 175, 175, 1)',
-  marginTop: '5px',
-  fontSize: '4.2rem'
-}
-
-const paragraphStyles = {
-  color: 'rgba(115, 115, 115, 1)',
-  width: '50%',
-  marginTop: '35px',
-}
+import {
+  sectionContainer,
+  supportTextStyles,
+  headingOneStyles,
+  headingTwoStyles,
+  paragraphStyles
+} from './modules/layout.module.css'
 
 const Hero = () => {
+  let timeOfDay
+  const date = new Date()
+  const hours = date.getHours()
+
+  if (hours < 12) {
+    timeOfDay = 'morning'
+  } else if ( hours >= 12 && hours < 17) {
+    timeOfDay = 'afternoon'
+  } else {
+    timeOfDay = 'night'
+  }
+
   return (
-    <main style={mainStyles}>
+    <main className={sectionContainer}>
       <div 
         role='doc-subtitle'
-        style={supportTextStyles}
+        className={supportTextStyles}
       >
-        Hi, my name is
+        Good {timeOfDay}, my name is
       </div>
-      <h1 style={headingStyles}>
+      <h1 className={headingOneStyles}>
         Sergio Garcia Gallego.
       </h1>
-      <h2 style={subheadingStyles}>
+      <h2 className={headingTwoStyles}>
         I build the future of the web.
       </h2>
-      <p style={paragraphStyles}>
-        I am an 18 year old Frontend Developer with 2 years' professional experience at <AnchorLink to='/#experience'>two startups</AnchorLink>! I am currently focused on building user-friendly, reusable & dynamic experiences with <Link to='https://purplebeard.co.uk'>Purple Beard</Link>.
+      <p className={paragraphStyles}>
+        I am an 18 year old Frontend Developer with 2 years' professional experience at <Link to='/#experience'>two startups</Link>! I am currently focused on building user-friendly, reusable & dynamic experiences with <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a>.
       </p>
     </main>
   )

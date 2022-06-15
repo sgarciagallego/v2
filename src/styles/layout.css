@@ -31,22 +31,6 @@ h6 {
   font-weight: 600;
 }
 
-.social::after {
-  content: "";
-  width: 1px;
-  height: 60px;
-  margin: 25px auto 0 auto;
-  background-color: rgba(75, 75, 75, 1);
-}
-
-.email::after {
-  content: "";
-  width: 1px;
-  height: 65px;
-  margin: 10px auto 0 auto;
-  background-color: rgba(75, 75, 75, 1);
-}
-
 a {
   text-decoration: none;
   color: rgba(175, 175, 175, 1);

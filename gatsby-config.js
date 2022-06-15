@@ -6,13 +6,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
-      resolve: "gatsby-plugin-anchor-links",
-      options: {
-        offset: 0,
-        duration: 1000
-      }
-    },
-    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: 'Sergio Garcia Gallego',

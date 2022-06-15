@@ -1,19 +1,22 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
-import '../styles/layout.css'
+import { Link } from "gatsby"
+import Layout from '../components/layout'
+import Navbar from '../components/navbar'
+import Error from "../components/error"
 
 const NotFoundPage = () => {
   return (
-    <main>
+    <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>uh oh... | Sergio</title>
-        <link rel="icon" type="image/x-icon" href="/src/images/icon.png" />
+        <title>Page not Found | Sergio</title>
       </Helmet>
-      <h1>Uh oh...</h1>
-      <p>Seems like we got lost, <Link to="/">return to safety</Link>!</p>
-    </main>
+      <Layout>
+        <Navbar />
+        <Error />
+      </Layout>
+    </>
   )
 }
 

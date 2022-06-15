@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import {
   logo,
   headerStyles,
@@ -9,7 +8,7 @@ import {
   linkStyles,
   linkNoStyles,
   btn
-} from './modules/navbar.module.css'
+} from './modules/layout.module.css'
 import Logo from './icons/logo'
 
 const Navbar = () => {
@@ -19,28 +18,30 @@ const Navbar = () => {
       <nav>
         <ul className={navStyles}>
           <li className={navListStyles}>
-            <AnchorLink to='/#about'>
+            <Link 
+              to='/#about'
+              title='About Me'>
               <span className={linkNoStyles}>01.</span>
               <span className={linkStyles}>About</span>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={navListStyles}>
-            <AnchorLink to='/#experience'>
+            <Link to='/#experience'>
               <span className={linkNoStyles}>02.</span>
               <span className={linkStyles}>Experience</span>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={navListStyles}>
-            <AnchorLink to='/#work'>
+            <Link to='/#work'>
               <span className={linkNoStyles}>03.</span>
               <span className={linkStyles}>Work</span>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={navListStyles}>
-            <AnchorLink to='/#contact'>
+            <Link to='/#contact'>
               <span className={linkNoStyles}>04.</span>
               <span className={linkStyles}>Contact</span>
-            </AnchorLink>
+            </Link>
           </li>
           <li className={navListStyles}>
             <Link to='/' className={btn}>

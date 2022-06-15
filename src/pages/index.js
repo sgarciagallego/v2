@@ -4,6 +4,7 @@ import Social from '../components/social'
 import Email from '../components/email'
 import Navbar from '../components/navbar'
 import Hero from '../components/hero'
+import About from '../components/about'
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <Email />
       <Navbar />
       <Hero />
+      <About />
     </Layout>
   )
 }
