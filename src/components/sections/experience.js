@@ -4,7 +4,7 @@ import {
   headingThreeStyles,
   monoStyles,
   paragraphStyles
-} from './modules/layout.module.css'
+} from '../modules/layout.module.css'
 
 const Experience = () => {
   return (
@@ -13,9 +13,6 @@ const Experience = () => {
         <span className={monoStyles}>02.</span>
         <span>Experience</span>
       </h3>
-      <div className={paragraphStyles}>
-        
-      </div>
     </section>
   )
 }

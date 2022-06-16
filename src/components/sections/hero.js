@@ -8,7 +8,7 @@ import {
   paragraphStyles,
   btnContainer,
   btn
-} from './modules/layout.module.css'
+} from '../modules/layout.module.css'
 
 const Hero = () => {
   let timeOfDay

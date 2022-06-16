@@ -3,9 +3,9 @@ import Layout from '../components/layout'
 import Social from '../components/social'
 import Email from '../components/email'
 import Navbar from '../components/navbar'
-import Hero from '../components/hero'
-import About from '../components/about'
-import Experience from '../components/experience'
+import Hero from '../components/sections/hero'
+import About from '../components/sections/about'
+import Experience from '../components/sections/experience'
 
 const IndexPage = () => {
   return (

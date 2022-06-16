@@ -5,8 +5,8 @@ import {
   headingThreeStyles,
   paragraphStyles,
   listStyles
-} from './modules/layout.module.css'
-import IconList from './icons/list'
+} from '../modules/layout.module.css'
+import IconList from '../icons/list'
 
 const About = () => {
   return (

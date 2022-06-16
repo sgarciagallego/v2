@@ -11,6 +11,7 @@
 html:focus-within {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 body {
