@@ -8,7 +8,6 @@ const Container = styled.section`
   justify-content: center;
   padding: 80px 10%;
   scroll-snap-align: start;
-  scroll-snap-stop: always;
 `
 const HeadingThree = styled.h3`
   color: rgba(255, 255, 255, 1);
@@ -30,6 +29,10 @@ const Job = styled.div`
   color: rgba(115, 115, 115, 1);
   max-width: 750px;
   margin-top: 35px;
+  
+  @media (max-width: 480px) {
+    margin-top: 25px;
+  }
 `
 const HeadingFour = styled.h4`
   color: rgba(175, 175, 175, 1);

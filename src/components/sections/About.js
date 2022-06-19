@@ -9,7 +9,6 @@ const Container = styled.section`
   justify-content: center;
   padding: 80px 10%;
   scroll-snap-align: start;
-  scroll-snap-stop: always;
 `
 const HeadingThree = styled.h3`
   color: rgba(255, 255, 255, 1);

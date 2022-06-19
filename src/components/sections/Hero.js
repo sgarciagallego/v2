@@ -9,7 +9,6 @@ const Container = styled.main`
   justify-content: center;
   padding: 80px 10%;
   scroll-snap-align: start;
-  scroll-snap-stop: always;
   
   @media (max-width: 480px) {
     padding: 8vh 10vw;
@@ -29,7 +28,7 @@ const Title = styled.h1`
   font-size: 5rem;
 
   @media (max-width: 480px) {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: 10px;
   }
 `
@@ -39,7 +38,7 @@ const HeadingTwo = styled.h2`
   font-size: 4.2rem;
 
   @media (max-width: 480px) {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 `
 const ParagraphContainer = styled.p`
