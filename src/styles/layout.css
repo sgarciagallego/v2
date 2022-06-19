@@ -10,6 +10,10 @@
 
 html {
   scroll-snap-type: y mandatory;
+} @media (max-width: 480px) {
+  html {
+    scroll-snap-type: none;
+  }
 }
 
 html:focus-within {

@@ -7,11 +7,12 @@ const Container = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 10vh 10vw;
   scroll-snap-align: start;
   
   @media (max-width: 480px) {
-    padding: 8vh 10vw;
+    padding: 8vh 5vw;
+    scroll-snap-align: none;
   }
 `
 const TitleSupport = styled.div`
@@ -28,7 +29,7 @@ const Title = styled.h1`
   font-size: 5rem;
 
   @media (max-width: 480px) {
-    font-size: 2.4rem;
+    font-size: 2.7rem;
     margin-bottom: 10px;
   }
 `
@@ -38,7 +39,7 @@ const HeadingTwo = styled.h2`
   font-size: 4.2rem;
 
   @media (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 `
 const ParagraphContainer = styled.p`

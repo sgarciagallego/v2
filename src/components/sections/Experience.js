@@ -6,8 +6,13 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 10vh 10vw;
   scroll-snap-align: start;
+  
+  @media (max-width: 480px) {
+    padding: 8vh 5vw;
+    scroll-snap-align: none;
+  }
 `
 const HeadingThree = styled.h3`
   color: rgba(255, 255, 255, 1);
