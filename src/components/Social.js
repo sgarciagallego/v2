@@ -24,6 +24,10 @@ const Container = styled.div`
 `
 const Icon = styled.a`
   margin-top: 25px;
+  transition: all 0.2s ease;
+  :hover {
+    transform: translateY(-3px);
+  }
 `
 
 const Social = () => {

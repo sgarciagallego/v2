@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
 import Logo from "./icons/Logo"
@@ -51,9 +51,9 @@ const Navbox = styled.div`
     width: 100%;
     justify-content: flex-start;
     padding-top: 10vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     -moz-backdrop-filter: blur(30px);
     transition: all 0.3s ease-in;
     top: 8vh;
@@ -94,7 +94,7 @@ const Hamburger = styled.div`
 `
 
 const Navbar = () => {
-  const [NavbarOpen, SetNavbarOpen] = React.useState(false)
+  const [NavbarOpen, SetNavbarOpen] = useState(false)
 
   return (
     <Navigation>

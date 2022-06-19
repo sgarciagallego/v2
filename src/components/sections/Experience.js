@@ -36,7 +36,7 @@ const Job = styled.div`
   margin-top: 35px;
   
   @media (max-width: 480px) {
-    margin-top: 25px;
+    margin-top: 20px;
   }
 `
 const HeadingFour = styled.h4`
@@ -85,6 +85,7 @@ const Summary = styled.ul`
   }
 
   @media (max-width: 480px) {
+    margin-top: 10px;
     font-size: 0.8rem;
     line-height: 20px;
   }

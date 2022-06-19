@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 const NavItem = styled(Link)`
-  color: rgba(115, 115, 115, 1);
+  color: rgba(135, 135, 135, 1);
   display: inline-block;
   position: relative;
   font-family: 'Roboto Mono', sans-serif;
@@ -16,7 +16,7 @@ const NavItem = styled(Link)`
 
   :after {
     color: transparent;
-    background: rgba(175, 175, 175, 1);
+    background: rgba(255, 255, 255, 1);
     width: 0%;
     height: 1px;
     position: absolute;
@@ -42,20 +42,21 @@ const NavItem = styled(Link)`
 `
 
 const PageName = styled.span`
-  color: rgba(175, 175, 175, 1);
+  color: rgba(255, 255, 255, 1);
 `
 
 const NavItemBoxed = styled(Link)`
+  color: rgba(255, 255, 255, 1);
   width: fit-content;
   padding: 14px 15px;
-  border: 1px solid rgba(75, 75, 75, 1);
+  border: 1px solid rgba(135, 135, 135, 1);
   border-radius: 10px;
   transition: 0.2s ease;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8rem;
 
   :hover {
-    border: 1px solid rgba(175, 175, 175, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
   }
 
   @media (max-width: 768px) {
