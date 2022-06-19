@@ -1,14 +1,74 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import {
-  sectionContainer,
-  supportTextStyles,
-  headingOneStyles,
-  headingTwoStyles,
-  paragraphStyles,
-  btnContainer,
-  btn
-} from '../modules/layout.module.css'
+import styled from 'styled-components'
+
+const Container = styled.main`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 10%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  
+  @media (max-width: 480px) {
+    padding: 8vh 10vw;
+  }
+`
+const TitleSupport = styled.div`
+  color: rgba(115, 115, 115, 1);
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 15px;
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem
+  }
+`
+const Title = styled.h1`
+  color: rgba(255, 255, 255, 1);
+  font-size: 5rem;
+
+  @media (max-width: 480px) {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+`
+const HeadingTwo = styled.h2`
+  color: rgba(175, 175, 175, 1);
+  margin-top: 5px;
+  font-size: 4.2rem;
+
+  @media (max-width: 480px) {
+    font-size: 2.6rem;
+  }
+`
+const ParagraphContainer = styled.p`
+  color: rgba(115, 115, 115, 1);
+  max-width: 750px;
+  margin-top: 20px;
+  line-height: 25px;
+
+  @media (max-width: 480px) {
+    margin-top: 25px;
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
+`
+const Btn = styled.a`
+  display: block;
+  width: fit-content;
+  margin-top: 30px;
+  padding: 14px 15px;
+  border: 1px solid rgba(75, 75, 75, 1);
+  border-radius: 10px;
+  transition: 0.2s ease;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8rem;
+  
+  :hover {
+    border: 1px solid rgba(175, 175, 175, 1)
+  }
+`
 
 const Hero = () => {
   let timeOfDay
@@ -24,26 +84,23 @@ const Hero = () => {
   }
 
   return (
-    <main className={sectionContainer}>
-      <div 
-        role='doc-subtitle'
-        className={supportTextStyles}
-      >
+    <Container id='home'>
+      <TitleSupport role='doc-subtitle'>
         Good {timeOfDay}, my name is
-      </div>
-      <h1 className={headingOneStyles}>
+      </TitleSupport>
+      <Title>
         Sergio Garcia Gallego.
-      </h1>
-      <h2 className={headingTwoStyles}>
+      </Title>
+      <HeadingTwo>
         I build the web.
-      </h2>
-      <p className={paragraphStyles}>
+      </HeadingTwo>
+      <ParagraphContainer>
         I am an 18 year old Frontend Developer with 2 years' professional experience at <Link to='/#experience'>two startups</Link>! I am currently focused on building user-friendly, reusable & dynamic experiences with <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a>.
-      </p>
-      <div className={btnContainer}>
-        <Link to='/' className={btn}>Resume</Link>
-      </div>
-    </main>
+      </ParagraphContainer>
+      <Btn href='/'>
+        Resume
+      </Btn>
+    </Container>
   )
 }
 

@@ -1,8 +1,8 @@
 import * as React from "react"
 import { Helmet } from "react-helmet"
-import Layout from '../components/layout'
-import Navbar from '../components/navbar'
-import Error from "../components/error"
+import Layout from '../components/Layout'
+import Navbar from '../components/Navbar'
+import Error from "../components/Error"
 
 const NotFoundPage = () => {
   return (
