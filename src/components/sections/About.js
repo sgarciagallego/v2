@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import IconList from '../icons/list'
+import IconList from '../icons/List'
 
 const Container = styled.section`
   height: 100vh;

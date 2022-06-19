@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import IconGithub from './icons/github'
-import IconLinkedin from './icons/linkedin'
-import IconInstagram from './icons/instagram'
+import IconGithub from './icons/Github'
+import IconLinkedin from './icons/Linkedin'
+import IconInstagram from './icons/Instagram'
 
 const Container = styled.div`
   position: fixed;
