@@ -8,10 +8,13 @@
   padding: 0;
 }
 
-html:focus-within {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+html {
   scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +24,7 @@ body {
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
+  font-display: swap;
 }
 
 h1,

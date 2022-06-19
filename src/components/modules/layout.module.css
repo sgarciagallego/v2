@@ -116,8 +116,8 @@
   flex-direction: column;
   justify-content: center;
   padding: 80px 10%;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 .center--container {
@@ -158,9 +158,20 @@
   font-size: 2.5rem;
 }
 
+.heading-four--styles {
+  color: rgba(175, 175, 175, 1);
+  align-items: center;
+  gap: 6px;
+  font-size: 1.7em;
+}
+
+.heading-four--styles a {
+  margin-left: 6px;
+}
+
 .paragraph--styles {
   color: rgba(115, 115, 115, 1);
-  max-width: 600px;
+  max-width: 750px;
   margin-top: 35px;
   line-height: 25px;
 }
@@ -187,6 +198,45 @@
 
 .list--styles li::marker {
   content: "";
+}
+
+.job--container {
+  color: rgba(115, 115, 115, 1);
+  max-width: 750px;
+  margin-top: 35px;
+}
+
+#pb--styles {
+  background-color: #63028F;
+  background-image: linear-gradient(45deg, #63028F, #39CF4E);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+#v--styles {
+  background-color: #285DA2;
+  background-image: linear-gradient(45deg, #285DA2, #767676);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.experience--list {
+  list-style: square;
+  margin-top: 15px;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
+.experience--list li::marker {
+  color: rgba(175, 175, 175, 1);
 }
 
 @media only screen and (min-width : 1824px) {  
@@ -235,6 +285,16 @@ and (min-width : 320px) and (max-width : 480px) {
   .heading-three--styles {
     font-size: 1.7rem;
   }
+
+  .heading-four--styles {
+    font-size: 1.3rem;
+  }
+
+  .heading-four--styles a {
+    display: block;
+    width: fit-content;
+    margin-left: 0;
+  }
   
   .paragraph--styles {
     margin-top: 20px;
@@ -244,6 +304,11 @@ and (min-width : 320px) and (max-width : 480px) {
 
   .list--styles li {
     font-size: 0.75rem;
+  }
+
+  .experience--list {
+    font-size: 0.8rem;
+    line-height: 20px;
   }
 }
 

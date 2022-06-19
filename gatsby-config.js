@@ -20,7 +20,6 @@ module.exports = {
         icon_options: {
           purpose: 'any maskable'
         },
-        cross0rigin: 'use-credentials',
         localize: [
           {
             start_url: 'https://sgarciagallego-v2.vercel.app',
