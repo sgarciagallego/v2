@@ -5,7 +5,8 @@ import '../styles/layout.css'
 const Layout = ({children}) => {
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{lang: 'en'}}>
         <meta charSet='utf-8' />
         <title>Sergio Garcia Gallego</title>
       </Helmet>
