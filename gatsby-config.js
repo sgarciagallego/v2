@@ -14,8 +14,8 @@ module.exports = {
       options: {
         name: 'Sergio Garcia Gallego',
         short_name: 'Sergio',
-        description: 'The second iteration of @sgarciagallego personal website, made with React and Gatsby',
-        start_url: 'https://sgarciagallego-v2.vercel.app',
+        description: 'The second iteration of @sgarciagallego personal website, made with React, Gatsby and styled-components',
+        start_url: '/',
         lang: 'en',
         background_color: '#000000',
         theme_color: '#000000',
@@ -26,11 +26,11 @@ module.exports = {
         },
         localize: [
           {
-            start_url: 'https://sgarciagallego-v2.vercel.app',
+            start_url: '/',
             lang: 'en',
             name: 'Sergio Garcia Gallego',
             short_name: 'Sergio',
-            description: 'The second iteration of @sgarciagallego personal website, made with React and Gatsby'
+            description: 'The second iteration of @sgarciagallego personal website, made with React and Gatsby and styled-components'
           }
         ]
       }
