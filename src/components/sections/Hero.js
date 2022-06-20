@@ -80,7 +80,7 @@ const Hero = () => {
   } else if ( hours >= 12 && hours < 17) {
     timeOfDay = 'afternoon'
   } else {
-    timeOfDay = 'night'
+    timeOfDay = 'evening'
   }
 
   return (
@@ -95,7 +95,7 @@ const Hero = () => {
         I build the web.
       </HeadingTwo>
       <ParagraphContainer>
-        I am an 18 year old Frontend Developer with 2 years' professional experience at <Link to='/#experience'>two startups</Link>! I am currently focused on building user-friendly, reusable & dynamic experiences with <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a>.
+        I am an 18 year old Frontend Developer with 2 years of professional experience at <Link to='/#experience'>two startups</Link>! I am currently building reusable, user-friendly experiences with <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a>.
       </ParagraphContainer>
       <Btn href='/'>
         Resume

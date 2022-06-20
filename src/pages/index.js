@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/sections/Hero'
 import About from '../components/sections/About'
 import Experience from '../components/sections/Experience'
+import Work from '../components/sections/Work'
 
 const IndexPage = () => {
   return (
@@ -16,6 +17,7 @@ const IndexPage = () => {
       <Hero />
       <About />
       <Experience />
+      <Work />
     </Layout>
   )
 }
