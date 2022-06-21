@@ -3,20 +3,15 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 const LogoWrap = styled.div`
-  margin: auto 0;
-  flex: 0 1 36px;
-
-  @media (max-width: 768px) and (orientation: landscape) {
-    flex: 0 1 25px;
-  }
+margin-top: 3px;
 `
 
 const Logo = () => {
   return (
     <LogoWrap as={Link} to='/'>
       <svg 
-        width="37.25" 
-        height="48" 
+        width="39" 
+        height="50" 
         viewBox="0 0 298 384" 
         fill="none" 
         xmlns="http://www.w3.org/2000/svg"

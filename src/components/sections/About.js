@@ -3,11 +3,14 @@ import styled from 'styled-components'
 import IconList from '../icons/List'
 
 const Container = styled.section`
-  height: 100vh;
+  width: 100%;
+  max-width: 1600px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10vh 10vw;
+  margin: 0 auto;
+  padding: 10vh 8vw;
   scroll-snap-align: start;
 
   @media (max-width: 480px) {

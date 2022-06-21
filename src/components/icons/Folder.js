@@ -1,9 +1,17 @@
 import React from 'react'
 import { UilFolder } from '@iconscout/react-unicons'
+import styled from 'styled-components'
+
+const FolderWrap = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`
 
 const IconFolder = () => {
   return (
-    <UilFolder size='40' color='rgba(175, 175, 175, 1)' />
+    <FolderWrap>
+      <UilFolder size='35' color='rgba(175, 175, 175, 1)' />
+    </FolderWrap>
   )
 }
 

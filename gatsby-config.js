@@ -22,17 +22,8 @@ module.exports = {
         display: 'standalone',
         icon: './src/images/icon.svg',
         icon_options: {
-          purpose: 'any maskable'
-        },
-        localize: [
-          {
-            start_url: '/',
-            lang: 'en',
-            name: 'Sergio Garcia Gallego',
-            short_name: 'Sergio',
-            description: 'The second iteration of @sgarciagallego personal website, made with React and Gatsby and styled-components'
-          }
-        ]
+          purpose: 'any maskable',
+        }
       }
     }
   ]

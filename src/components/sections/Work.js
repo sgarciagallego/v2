@@ -3,11 +3,14 @@ import styled from 'styled-components'
 import IconFolder from '../icons/Folder'
 
 const Container = styled.section`
-  height: 100vh;
+  width: 100%;
+  max-width: 1600px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10vh 10vw;
+  margin: 0 auto;
+  padding: 10vh 8vw;
   scroll-snap-align: start;
   
   @media (max-width: 480px) {
@@ -34,15 +37,19 @@ const Mono = styled.span`
 const CardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-top: 30px;
-  gap: 50px;
+
+  @media (max-width: 480px) {
+    justify-content: center;
+  }
 `
 const Card = styled.a`
-  width: 285px;
-  height: 285px;
+  width: 270px;
+  height: 295px;
   border: 1px solid rgba(175, 175, 175, 1);
   border-radius: 10px;
+  margin-bottom: 30px; 
   padding: 27px;
   transition: all 0.2s ease-in;
   :hover {
@@ -55,9 +62,9 @@ const HeadingFour = styled.h4`
   color: rgba(255, 255, 255, 1);
 `
 const ProjectSummary = styled.p`
+  color: rgba(115, 115, 115, 1); 
   margin-top: 15px;
   line-height: 23px;
-  font-size: 0.9rem;
 `
 const TechUsed = styled.ul`
   list-style: none;
@@ -75,7 +82,7 @@ const TechUsed = styled.ul`
 
 const Work = () => {
   return (
-    <Container>
+    <Container id='work'>
       <HeadingThree>
         <Mono>03.</Mono>Personal Projects
       </HeadingThree>
@@ -124,6 +131,22 @@ const Work = () => {
             <li>JS</li>
             <li>React</li>
             <li>JSON API</li>
+          </TechUsed>
+        </Card>
+        <Card 
+          href='https://github.com/sgarciagallego/v1'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <IconFolder />
+          <HeadingFour>v1</HeadingFour>
+          <ProjectSummary>
+            The first iteration of my portfolio website created using HTML5, CSS3 and JavaScript.
+          </ProjectSummary>
+          <TechUsed>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JS</li>
           </TechUsed>
         </Card>
       </CardWrapper>

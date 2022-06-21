@@ -10,10 +10,11 @@ const Navigation = styled.nav`
   height: 10vh;
   display: flex;
   background-color: rgba(0, 0, 0, 1);
+  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(75, 75, 75, 1);
   margin: 0 auto;
-  padding: 0 2vw;
+  padding: 0 1vw;
   z-index: 2;
   align-self: center;
 
