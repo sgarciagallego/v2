@@ -34,9 +34,9 @@ const NavItem = styled(Link)`
   }
 
   @media (max-width: 768px) {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     padding-bottom: 5px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     z-index: 6;
   }
 `
@@ -60,7 +60,7 @@ const NavItemBoxed = styled(Link)`
   }
 
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 `
 

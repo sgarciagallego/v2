@@ -4,6 +4,7 @@ import NavbarLinks from "./NavbarLinks"
 import Logo from "./icons/Logo"
 
 const Navigation = styled.nav`
+  z-index: 9999;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -15,7 +16,6 @@ const Navigation = styled.nav`
   border-bottom: 1px solid rgba(75, 75, 75, 1);
   margin: 0 auto;
   padding: 0 1vw;
-  z-index: 2;
   align-self: center;
 
   @media (max-width: 768px) {
@@ -30,6 +30,7 @@ const Navigation = styled.nav`
 `
 
 const Toggle = styled.div`
+  z-index: 9999;
   display: none;
   height: 100%;
   cursor: pointer;
@@ -41,24 +42,24 @@ const Toggle = styled.div`
 `
 
 const Navbox = styled.div`
+  width: 100vw;
+  height: 30%;
   display: flex;
-  height: 100%;
   justify-content: flex-end;
   align-items: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
     position: fixed;
-    width: 100%;
-    justify-content: flex-start;
-    padding-top: 10vh;
+    width: 100vw;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     -moz-backdrop-filter: blur(30px);
-    transition: all 0.3s ease-in;
-    top: 8vh;
-    left: ${props => (props.open ? "-100%" : "0")};
+    transition: all 0.2s ease-in;
+    top: ${props => (props.open ? "-100%" : "8vh")};
+    border-bottom: 1px solid rgba(75, 75, 75, 1);
   }
 `
 
@@ -83,14 +84,14 @@ const Hamburger = styled.div`
 
   ::before {
     transform: ${props =>
-      props.open ? "rotate(-90deg) translate(-10px, 0px)" : "rotate(0deg)"};
-    top: -10px;
+      props.open ? "rotate(-90deg) translate(-8px, 0px)" : "rotate(0deg)"};
+    top: -8px;
   }
 
   ::after {
     opacity: ${props => (props.open ? "0" : "1")};
     transform: ${props => (props.open ? "rotate(90deg) " : "rotate(0deg)")};
-    top: 10px;
+    top: 8px;
   }
 `
 

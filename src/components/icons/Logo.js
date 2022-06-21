@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 const LogoWrap = styled.div`
-margin-top: 3px;
+  z-index: 9999;
+  margin-top: 3px;
 `
 
 const Logo = () => {

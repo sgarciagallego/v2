@@ -46,8 +46,8 @@ const CardWrapper = styled.div`
 `
 const Card = styled.a`
   width: 270px;
-  height: 295px;
-  border: 1px solid rgba(175, 175, 175, 1);
+  height: 285px;
+  border: 1px solid rgba(115, 115, 115, 1);
   border-radius: 10px;
   margin-bottom: 30px; 
   padding: 27px;
@@ -55,16 +55,27 @@ const Card = styled.a`
   :hover {
     transform: translateY(-5px);
   }
+  @media (max-width: 480px) {
+    width: 260px;
+    height: 260px;
+  }
 `
 const HeadingFour = styled.h4`
   margin-top: 10px;
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 1);
+  @media (max-width: 480px) {
+    font-size: 1.2rem;
+  }
 `
 const ProjectSummary = styled.p`
   color: rgba(115, 115, 115, 1); 
   margin-top: 15px;
   line-height: 23px;
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
 `
 const TechUsed = styled.ul`
   list-style: none;
