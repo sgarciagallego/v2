@@ -7,7 +7,7 @@ const Navigation = styled.nav`
   z-index: 9999;
   position: fixed;
   top: 0;
-  width: 100vw;
+  max-width: 100vw;
   height: 10vh;
   display: flex;
   background-color: rgba(0, 0, 0, 1);
@@ -17,7 +17,6 @@ const Navigation = styled.nav`
   margin: 0 auto;
   padding: 0 1vw;
   align-self: center;
-
   @media (max-width: 768px) {
     position: fixed;
     top: 0;
@@ -28,30 +27,26 @@ const Navigation = styled.nav`
     left: 0;
   }
 `
-
 const Toggle = styled.div`
   z-index: 9999;
   display: none;
   height: 100%;
   cursor: pointer;
   padding: 0 2vw;
-
   @media (max-width: 768px) {
     display: flex;
   }
 `
-
 const Navbox = styled.div`
   width: 100vw;
   height: 225px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
   @media (max-width: 768px) {
     flex-direction: column;
     position: fixed;
-    width: 100vw;
+    transform: translateX(-1vw);
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(20px);
