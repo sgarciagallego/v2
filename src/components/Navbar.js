@@ -43,7 +43,7 @@ const Toggle = styled.div`
 
 const Navbox = styled.div`
   width: 100vw;
-  height: 30%;
+  height: 225px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
