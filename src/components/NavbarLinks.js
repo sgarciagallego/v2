@@ -10,7 +10,7 @@ const NavItem = styled(Link)`
   font-size: 0.8rem;
   text-decoration: none;
   white-space: nowrap;
-  margin: 0 1vw;
+  margin: 0 12px;
   padding: 2px 0;
   transition: all 0.2s ease-in;
 

@@ -98,7 +98,7 @@ const Hero = () => {
         I build the web.
       </HeadingTwo>
       <ParagraphContainer>
-        I am an 18 year old Frontend Developer with 2 years of professional experience at <Link to='/#experience'>two startups</Link>! I am currently building reusable, user-friendly experiences with <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a>.
+        I am an 18-year-old Frontend Developer with two years of professional experience at <Link to='/#experience'>two startups</Link>! At this time, I am building reusable, user-friendly experiences at <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a> while also undergoing and completing my <a href='https://www.bcs.org/develop-your-people/develop-your-team-or-organisation/digital-it-apprenticeships-for-your-team/offer-our-apprenticeships-standards/software-development-technician/' target='_blank' rel='noreferrer'>Software Development apprenticeship</a> finishing in July 2022.
       </ParagraphContainer>
       <Btn href='/'>
         Resume
