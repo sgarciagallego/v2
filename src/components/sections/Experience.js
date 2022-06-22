@@ -46,7 +46,7 @@ const HeadingFour = styled.h4`
   color: rgba(175, 175, 175, 1);
   align-items: center;
   gap: 6px;
-  font-size: 1.7em;
+  font-size: 1.6em;
   a { margin-left: 6px; }
 
   @media (max-width: 480px) {

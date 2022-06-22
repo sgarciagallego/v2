@@ -23,7 +23,7 @@ const Container = styled.div`
     font-size: 0.8rem;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `

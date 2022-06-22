@@ -10,7 +10,7 @@ const FolderWrap = styled.div`
 const IconFolder = () => {
   return (
     <FolderWrap>
-      <UilFolder size='35' color='rgba(175, 175, 175, 1)' />
+      <UilFolder size='35' color='rgba(115, 115, 115, 1)' />
     </FolderWrap>
   )
 }

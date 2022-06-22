@@ -47,7 +47,7 @@ const CardWrapper = styled.div`
 const Card = styled.a`
   width: 270px;
   height: 285px;
-  border: 1px solid rgba(115, 115, 115, 1);
+  border: 1px solid rgba(75, 75, 75, 1);
   border-radius: 10px;
   margin-bottom: 30px; 
   padding: 27px;
@@ -63,7 +63,7 @@ const Card = styled.a`
 const HeadingFour = styled.h4`
   margin-top: 10px;
   font-size: 1.6rem;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(175, 175, 175, 1);
   @media (max-width: 480px) {
     font-size: 1.2rem;
   }

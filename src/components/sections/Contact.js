@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Container = styled.section`
   width: 100%;
   max-width: 1600px;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

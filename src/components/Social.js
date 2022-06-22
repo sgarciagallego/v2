@@ -18,7 +18,7 @@ const Container = styled.div`
     background-color: rgba(75, 75, 75, 1);
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     display: none
   }
 `
