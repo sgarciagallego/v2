@@ -45,9 +45,10 @@ const PageName = styled.span`
   color: rgba(255, 255, 255, 1);
 `
 
-const NavItemBoxed = styled(Link)`
+const NavItemBoxed = styled.a`
   color: rgba(255, 255, 255, 1);
   width: fit-content;
+  margin-left: 12px;
   padding: 14px 15px;
   border: 1px solid rgba(135, 135, 135, 1);
   border-radius: 10px;
@@ -83,7 +84,7 @@ const NavbarLinks = () => {
         <span>04.</span>
         <PageName>Contact</PageName>
       </NavItem>
-      <NavItemBoxed to="/">
+      <NavItemBoxed href="/resume.pdf" target='_blank' rel='noreferrer'>
         Resume
       </NavItemBoxed>
     </>
