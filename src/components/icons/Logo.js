@@ -11,8 +11,8 @@ const Logo = () => {
   return (
     <LogoWrap as={Link} to='/'>
       <svg 
-        width="39" 
-        height="50" 
+        width="37" 
+        height="48" 
         viewBox="0 0 298 384" 
         fill="none" 
         xmlns="http://www.w3.org/2000/svg"

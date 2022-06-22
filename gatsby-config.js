@@ -5,10 +5,8 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-remove-console",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
