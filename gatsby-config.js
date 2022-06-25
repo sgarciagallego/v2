@@ -4,9 +4,21 @@ module.exports = {
     siteUrl: `https://sgarciagallego-v2.vercel.app`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-gatsby-cloud`,
+      options: {
+        headers: {},
+        allPageHeaders: [],
+        mergeSecurityHeaders: true,
+        mergeLinkHeaders: true,
+        mergeCachingHeaders: true,
+        transformHeaders: (headers, path) => headers,
+        generateMatchPathRewrites: true,
+      },
+    },
+    "gatsby-plugin-remove-console",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
-    "gatsby-plugin-remove-console",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
