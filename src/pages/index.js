@@ -17,7 +17,7 @@ const IndexPage = () => {
       <Seo 
         title='Sergio Garcia Gallego'
         description="The second iteration of @sgarciagallego's personal website, made with React, Gatsby and styled-components"
-        image='/static/og.png'
+        image='/content/og.png'
         pathname='/'
       />
       <Social />
