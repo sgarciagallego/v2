@@ -15,7 +15,6 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@iconscout/react-unicons": "^1.1.6",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.16.0",
     "gatsby-plugin-manifest": "^4.16.0",
