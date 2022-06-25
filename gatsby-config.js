@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `v2`,
-    siteUrl: `https://sgarciagallego-v2.vercel.app`
+    title: `Sergio Garcia Gallego`,
+    description: `The second iteration of @sgarciagallego's personal website, made with React, Gatsby and styled-components`,
+    author: `@sgarciagallego`,
+    siteUrl: `https://iamsergio.dev`,
   },
   plugins: [
     "gatsby-plugin-remove-console",
@@ -10,11 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: 'Sergio Garcia Gallego',
-        short_name: 'Sergio',
-        description: 'The second iteration of @sgarciagallego personal website, made with React, Gatsby and styled-components',
         start_url: '/',
-        lang: 'en',
         background_color: '#000000',
         theme_color: '#000000',
         display: 'standalone',
