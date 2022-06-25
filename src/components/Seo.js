@@ -55,7 +55,7 @@ function Seo({ description, lang, title, pathname }) {
         },
         {
           property: `og:image`,
-          content: `/content/og.png`
+          content: `/og.png`
         },
         {
           property: `og:type`,
@@ -75,7 +75,7 @@ function Seo({ description, lang, title, pathname }) {
         },
         {
           name: `twitter:image`,
-          content: `/content/og.png`,
+          content: `/og.png`,
         }
       ]}
      />
