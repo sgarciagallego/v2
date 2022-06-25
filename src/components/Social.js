@@ -4,12 +4,13 @@ import IconGithub from './icons/Github'
 import IconLinkedin from './icons/Linkedin'
 import IconInstagram from './icons/Instagram'
 
-const Container = styled.div`
+const StyledSocialContainer = styled.div`
   position: fixed;
   bottom: 0;
   left: 25px;
   display: flex;
   flex-direction: column;
+
   ::after {
     content: "";
     width: 1px;
@@ -21,40 +22,45 @@ const Container = styled.div`
   @media (max-width: 768px) {
     display: none
   }
-`
-const Icon = styled.a`
-  margin-top: 25px;
-  transition: all 0.2s ease;
-  :hover {
-    transform: translateY(-3px);
+
+  .social--icon {
+    margin-top: 25px;
+    transition: all 0.2s ease;
+
+    :hover {
+      transform: translateY(-3px);
+    }
   }
 `
 
 const Social = () => {
   return (
-    <Container>
-      <Icon
+    <StyledSocialContainer>
+      <a
+        className='social--icon'
         href='https://github.com/sgarciagallego'
         target='_blank'
         rel='noreferrer'
       >
         <IconGithub />
-      </Icon>
-      <Icon
+      </a>
+      <a
+        className='social--icon'
         href='https://linkedin.com/in/sgarciagallego'
         target='_blank'
         rel='noreferrer'
       >
         <IconLinkedin />
-      </Icon>
-      <Icon
+      </a>
+      <a
+        className='social--icon'
         href='https://instagram.com/s_garciagallego'
         target='_blank'
         rel='noreferrer'
       >
         <IconInstagram />
-      </Icon>
-    </Container>
+      </a>
+    </StyledSocialContainer>
   )
 }
 
