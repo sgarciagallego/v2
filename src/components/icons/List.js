@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const IconWrapper = styled.div`
-  width: 14px;
   height: auto;
   display: flex;
   align-items: center;
@@ -13,6 +12,8 @@ const IconList = () => {
   return (
     <IconWrapper>
       <svg 
+        width='14px'
+        height='14px'
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 24 24"
       >
