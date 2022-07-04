@@ -10,6 +10,24 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          'G-SSGF7X8DNJ',
+        ],
+        gtagConfig: {
+          optimize_id: 'OPT_CONTAINER_ID',
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: ['/preview/**', '/do-not-track/me/too/'],
+        },
+      },
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         start_url: '/',
