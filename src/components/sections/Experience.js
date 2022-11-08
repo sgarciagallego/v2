@@ -112,7 +112,7 @@ const Experience = () => {
       </h3>
       <div className='container--job'>
         <h4 className='job--title'>
-          Frontend UX/UI Developer
+          Lead Digital Designer
           <a
             id='pb--styles'
             href='https://purplebeard.co.uk'
@@ -137,7 +137,7 @@ const Experience = () => {
       </div>
       <div className='container--job'>
         <h4 className='job--title'>
-          Apprentice Web Developer
+          Web Developer
           <a
             id='vbs--styles'
             href='https://vasavebusiness.com'

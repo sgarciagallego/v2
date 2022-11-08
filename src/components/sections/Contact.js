@@ -90,7 +90,7 @@ const Contact = () => {
         Contact
       </h3>
       <p className='final--message'>
-        At this moment in time, I am pleased with my current position at Purple Beard. However, my inbox is always open, so whether you have a question or you are just introducing yourself, I will get back to you!
+        My inbox is always open, so whether you have a question or you are just introducing yourself, I will try my best to get back to you!
       </p>
       <a
         className='btn'

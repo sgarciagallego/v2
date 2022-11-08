@@ -106,7 +106,7 @@ const Hero = () => {
         I build the web.
       </h2>
       <p className='container--paragraph'>
-        I am an 18-year-old Frontend Developer and aspiring UX/UI Designer with two years of professional experience at <Link to='/#experience'>two startups</Link>! At this time, I am building reusable, user-friendly experiences at <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a> while also undergoing and completing my <a href='https://www.bcs.org/develop-your-people/develop-your-team-or-organisation/digital-it-apprenticeships-for-your-team/offer-our-apprenticeships-standards/software-development-technician/' target='_blank' rel='noreferrer'>Software Development apprenticeship</a> finishing in July 2022.
+        I am a Digital Designer on all things media and web-based, with three years of professional experience at <Link to='/#experience'>two startups</Link>! At this time, I am building user-friendly experiences at <a href='https://purplebeard.co.uk' target='_blank' rel='noreferrer'>Purple Beard</a>, a for-profit Tech Education provider.
       </p>
       <a 
         className='btn'
