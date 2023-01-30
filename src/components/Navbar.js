@@ -8,7 +8,7 @@ const Navigation = styled.nav`
   position: fixed;
   top: 0;
   max-width: 100vw;
-  height: 10vh;
+  height: 70px;
   display: flex;
   background-color: rgba(0, 0, 0, 1);
   align-items: center;
