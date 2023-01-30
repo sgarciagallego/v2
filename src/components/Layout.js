@@ -8,9 +8,9 @@ const Layout = ({children}) => {
       <Helmet
         htmlAttributes={{lang: 'en'}}>
         <meta charSet='utf-8' />
-        <meta name='description' content='The second iteration of @sgarciagallego personal website, made with React, Gatsby and styled-components' />
+        <meta name='description' content="The second iteration of Sergio's personal website, made with React, Gatsby, GraphQL and styled-components" />
         <title>Sergio Garcia Gallego</title>
-        <link rel="canonical" href="https://sgarciagallego-v2.vercel.app" />
+        <link rel="canonical" href="https://sergiogarciagallego.com" />
       </Helmet>
       {children}
     </>

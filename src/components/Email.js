@@ -38,8 +38,8 @@ const StyledEmailContainer = styled.div`
 const Email = () => {
   return (
     <StyledEmailContainer>
-      <a href='mailto:gallegogarciasergio@gmail.com'>
-        gallegogarciasergio@gmail.com
+      <a href='mailto:hello@sergiogarciagallego.com'>
+        hello@sergiogarciagallego.com
       </a>
     </StyledEmailContainer>
   )

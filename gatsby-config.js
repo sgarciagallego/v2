@@ -3,7 +3,7 @@ module.exports = {
     title: `Sergio Garcia Gallego`,
     description: `The second iteration of @sgarciagallego's personal website, made with React, Gatsby and styled-components`,
     author: `@sgarciagallego`,
-    siteUrl: `https://iamsergio.dev`,
+    siteUrl: `https://sergiogarciagallego.com`,
   },
   plugins: [
     "gatsby-plugin-remove-console",

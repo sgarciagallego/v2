@@ -94,7 +94,7 @@ const Contact = () => {
       </p>
       <a
         className='btn'
-        href='mailto:gallegogarciasergio@gmail.com'
+        href='mailto:hello@sergiogarciagallego.com'
       >
         Get In Touch!
       </a>
